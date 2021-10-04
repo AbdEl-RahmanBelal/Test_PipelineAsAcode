@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Build Completed'
         timeout(time: 6, unit: 'SECONDS') {
-          sh 'sleep 10'
+          sh 'sleep 4'
         }
       }
     }
